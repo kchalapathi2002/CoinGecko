@@ -1,0 +1,60 @@
+.main {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.crypto-grid {
+  display: grid;
+  grid-template-columns: 1fr; /* One row for each `EachCoin` component */
+  /*grid-gap: 10px;*/
+}
+  
+  .cryptodata h2 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 40px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .loading,
+  .error {
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 20px;
+  }
+
+.coin-row-cd{
+  display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Create 5 equal columns for the coin data */
+    padding: 10px;
+    align-items: center;
+    border-bottom: 1px solid #37ff00;
+    width: 100%;
+    background-color: #a0ffd4;
+    color: #000000;
+}
+
+.coin-row-cd p {
+  margin: 0;
+  padding: 5px;
+  text-align: right; /* Align all text to the right */
+}
+
+.coin-row-cd p:first-child{
+  text-align: center;
+}
+  

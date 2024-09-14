@@ -1,0 +1,41 @@
+/* eachCoin.css */
+
+
+.coin-row {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Create 5 equal columns for the coin data */
+    padding: 10px;
+    align-items: center;
+    border-bottom: 1px solid #8eeded;
+    width: 100%;
+    background-color: #1e1e1e;
+    color: #ffffff;
+  }
+  
+  .coin-data {
+    display: flex;
+    align-items: center;
+  }
+  
+  /*.coin-data img {
+    margin-right: 10px;
+    border-radius: 50%;
+  }*/
+  
+  .coin-price {
+    text-align: right; /* Right align the price */
+  }
+  
+  .coin-row p {
+    margin: 0;
+    padding: 5px;
+    text-align: right; /* Align all text to the right */
+  }
+
+  .positive{
+    color: chartreuse;
+  }
+  .negative{
+    color: rgb(255, 0, 25);
+  }
+  
