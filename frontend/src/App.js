@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import CryptoData from './CryptoData';
+import CryptoData from './components/CryptoData';
 
 function App() {
   return (
