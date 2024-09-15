@@ -1,3 +1,5 @@
+Please see this file as code for better understanding 
+
 Title:Crypto Prices tracking using Coingecko Api
 
 File structure defining important files:
