@@ -73,7 +73,7 @@ const CryptoData = () => {
     };
 
     fetchCryptoData();
-    setInterval(fetchCryptoData, 10000);
+    setInterval(fetchCryptoData, 5000);
     return () => clearInterval(setInterval);
   },[]); 
 
